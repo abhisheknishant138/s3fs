@@ -14,7 +14,7 @@ matrix:
       - PYVER=3.8
     - arch: arm64
       env:
-      - PYVER=3.8
+      - PYVER=3.7
 
 install:
   # Install conda
