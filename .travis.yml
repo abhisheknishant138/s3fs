@@ -18,7 +18,7 @@ matrix:
 
 install:
   # Install conda
-  - if ["${TRAVIS_CPU_ARCH}"=='arm64'] then
+  - if ["${TRAVIS_CPU_ARCH}"=='arm64']; then
       wget https://github.com/conda-forge/miniforge/releases/download/4.8.2-1/Miniforge3-4.8.2-1-Linux-aarch64.sh -O miniconda.sh;
       chmod +x miniconda.sh;
     else
